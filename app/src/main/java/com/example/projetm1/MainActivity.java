@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -21,7 +22,10 @@ import android.widget.Toast;
 import com.example.projetm1.apiManager.ApiManager;
 import com.example.projetm1.modele.User;
 import com.example.projetm1.service.ApiService;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.IOException;
 import java.util.List;
 
 import retrofit2.Call;
@@ -46,6 +50,29 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        SocketManager.createNotificationChannel(this);
+        SocketManager.getSocket().connect();
+        SocketManager.getSocket().on("user_admin.1@wimse.com_notification", args -> {
+            // Handle the event here
+            if (args != null && args.length > 0) {
+                String message = args[0].toString();
+                // Do something with the received message
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+
+                    try {
+                        NotificationModel model=objectMapper.readValue(message, NotificationModel.class);
+                        SocketManager.showNotification(this,model);
+
+
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+
+                }
+            }
+        });
 
         SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
 
