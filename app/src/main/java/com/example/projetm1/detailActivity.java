@@ -65,7 +65,7 @@ public class detailActivity extends AppCompatActivity {
                 Media media = listeMedia.get(j);
                 Log.e("media", media.getFileInfo().getPath());
                 String filename = media.getFileInfo().getFilename();
-                String path = "http://192.168.88.245:3000/uploads/"+filename;
+                String path = "https://m1p10androidnode.onrender.com/uploads/"+filename;
                 if(hasImageExtension(filename)){
                     ImageView imageView = new ImageView(this);
                     Picasso.get().load(path)

@@ -55,7 +55,7 @@ public class ListeRecycleViewAdapter extends RecyclerView.Adapter<ListeRecycleVi
             Media media = mediaList.get(0);
 
             String filename = media.getFileInfo().getFilename();
-            String url = "http://192.168.88.245:3000/uploads/" + filename;
+            String url = "https://m1p10androidnode.onrender.com/uploads/" + filename;
             if (hasImageExtension(filename)) {
                 holder.playerView.setVisibility(View.GONE);
                 holder.imageView.setVisibility(View.VISIBLE);

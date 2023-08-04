@@ -51,7 +51,7 @@ public class GalleryRecycleViewAdapter extends RecyclerView.Adapter<GalleryRecyc
     public void onBindViewHolder(@NonNull GalleryRecycleViewAdapter.MyViewHolder holder, int position) {
         Media media = mediaList.get(position);
         String filename = media.getFileInfo().getFilename();
-        String url = "http://192.168.88.245:3000/uploads/" + filename;
+        String url = "https://m1p10androidnode.onrender.com/uploads/" + filename;
 
         if (hasImageExtension(filename)) {
             holder.videoView.setVisibility(View.GONE);
