@@ -52,8 +52,8 @@ public class MainActivity extends BaseActivity {
 
         SocketManager.createNotificationChannel(this);
         SocketManager.getSocket().connect();
-        SocketManager.getSocket().on("user_admin.1@wimse.com_notification", args -> {
-            // Handle the event here
+
+        SocketManager.getSocket().on("default", args -> {
             if (args != null && args.length > 0) {
                 String message = args[0].toString();
                 // Do something with the received message

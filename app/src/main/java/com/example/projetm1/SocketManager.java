@@ -58,7 +58,7 @@ public class SocketManager {
             try {
                 IO.Options opts = new IO.Options();
                 opts.forceNew = true; // Depending on your server configuration, you may or may not need this line
-                socket = IO.socket("https://dev.bs.wimse.com", opts);
+                socket = IO.socket("https://m1p10androidnode.onrender.com", opts);
             } catch (URISyntaxException e) {
                 e.printStackTrace();
             }
