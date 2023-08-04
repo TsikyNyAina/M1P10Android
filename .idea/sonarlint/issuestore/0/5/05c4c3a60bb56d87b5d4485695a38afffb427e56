@@ -1,0 +1,11 @@
+
+D
+java:S1604"(Make this anonymous inner class a lambda(²ü´­ÿÿÿÿÿ
+t
+java:S14506"YRemove the "apiService" field and declare it as a local variable in the relevant methods.(šı¤Æøÿÿÿÿ
+\
+java:S1854="ARemove this useless assignment to local variable "homeViewModel".(Àø¡Âıÿÿÿÿ
+U
+java:S1161;":Add the "@Override" annotation above this method signature(î•Éğûÿÿÿÿ
+M
+java:S1481="2Remove this unused "homeViewModel" local variable.(Àø¡Âıÿÿÿÿ

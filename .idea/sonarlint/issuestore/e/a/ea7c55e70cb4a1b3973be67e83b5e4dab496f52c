@@ -1,0 +1,19 @@
+
+=
+java:S1604H"(Make this anonymous inner class a lambda(æ¾Á#
+C
+java:S1604R"(Make this anonymous inner class a lambda(„¡§Èúÿÿÿÿ
+C
+java:S1604["(Make this anonymous inner class a lambda(¤Ÿ£™ÿÿÿÿÿ
+D
+java:S1604È"(Make this anonymous inner class a lambda(²ü´­ÿÿÿÿÿ
+q
+java:S1450#"[Remove the "btnConnexion" field and declare it as a local variable in the relevant methods.(¸ğã
+x
+java:S1450""]Remove the "btnCreerCompte" field and declare it as a local variable in the relevant methods.(ıèƒ¢úÿÿÿÿ
+r
+java:S1450!"\Remove the "settingButton" field and declare it as a local variable in the relevant methods.( ıÎî
+[
+java:S18542"@Remove this useless assignment to local variable "splashScreen".(ÕåÛûÿÿÿÿ
+L
+java:S14812"1Remove this unused "splashScreen" local variable.(ÕåÛûÿÿÿÿ

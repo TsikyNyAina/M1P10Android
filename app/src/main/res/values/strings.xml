@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ProjetM1</string>
+    <string name="connexion_titre">Connexion</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="connexion_error">Veuillez verifier votre login ou mot de passe</string>
+    <string name="connexion_button">Connexion</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="creer_compte">Créer compte</string>
+
+    <!-- Preference Titles -->
+    <string name="language_header">Languages</string>
+    <string name="mode_header">Mode</string>
+
+    <!-- Messages Preferences -->
+    <string name="language_title">Languages</string>
+    <string name="mode_title">Mode Nuit</string>
+
+    <!-- Inscription page -->
+    <string name="inscription_title">Inscription</string>
+    <string name="inscription_error">Inscription non réussi</string>
+    <string name="inscription_error_duplicate">Pseudo ou mail déjà utilisée</string>
+    <string name="nom_hint">Nom</string>
+    <string name="email">Email</string>
+    <string name="inscription_button">S\'inscrire</string>
+    <string name="btn_connexion">Se connecter</string>
+
+    <string name="title_activity_liste">Tourisme Mada</string>
+    <string name="navigation_drawer_open">Navigation ouvert</string>
+    <string name="navigation_drawer_close">Navigation close</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_logout">Deconnexion</string>
+
+    <string name="log_out_confirmation">Voulez vous vraiment vous déconnecter?</string>
+    <string name="log_out_message">Vous êtes déconnecté</string>
+    <string name="btn_annuler">Annuler</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="champ_vide">Veuillez renseigner tous les champs</string>
+    
+    <string name="title">Erreur</string>
+    <string name="success_title">Inscription</string>
+    <string name="traitement">Traitement en cours</string>
+    <string name="erreur_net">Verifier votre connexion</string>
+    <string name="erreur_message">Inscription non aboutie</string>
+    <string name="success_message">Inscription réussi</string>
+
+    <string name="connexion_message">Connexion non réussie</string>
+
+    <string name="description">Description</string>
+
+    <string name="pick_photo">Choisir photo/video</string>
+
+    <string name="valider">Publier</string>
+
+    <string name="insertion_title">Publication</string>
+    <string name="insertion_success">Insertion réussie</string>
+    <string name="insertion_error">Insertion non aboutie</string>
+
+</resources>

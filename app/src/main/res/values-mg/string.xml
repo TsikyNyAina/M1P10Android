@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjetM1</string>
+    <string name="connexion_titre">Fidirana</string>
+    <string name="pseudo">Anarana</string>
+    <string name="mot_de_passe">Teny miafina</string>
+    <string name="connexion_button">Hiditra</string>
+    <string name="connexion_error">Amarino ny anarana na ny teny miafina</string>
+    <string name="creer_compte">Hanokatra kaonty</string>
+
+    <string name="title_activity_settings">Fikirana</string>
+
+    <!-- Preference Titles -->
+    <string name="language_header">Teny Ampiasana</string>
+    <string name="mode_header">Mode</string>
+
+    <!-- Messages Preferences -->
+    <string name="language_title">Teny</string>
+    <string name="mode_title">Mode</string>
+
+    <!-- Inscription page -->
+    <string name="inscription_title">Fisoratana anarana</string>
+    <string name="inscription_error">Fisoratana anarana tsy nety</string>
+    <string name="inscription_error_duplicate">Pseudo na e-mail efa nisy nampiasa</string>
+    <string name="nom_hint">Anarana</string>
+    <string name="email">Email</string>
+    <string name="inscription_button">Hisoratra</string>
+    <string name="btn_connexion">Efa manana kaonty</string>
+
+    <string name="title_activity_liste">Tourisme Mada</string>
+    <string name="navigation_drawer_open">Navigation ouvert</string>
+    <string name="navigation_drawer_close">Navigation close</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Fikirana</string>
+    <string name="action_logout">Hivoaka</string>
+
+    <string name="log_out_confirmation">Tena hiala ve ianao?</string>
+    <string name="log_out_message">Tafavoaka inao</string>
+    <string name="btn_annuler">Hiverina</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="champ_vide">fenoy ny saha rehetra azafady</string>
+
+    <string name="title">Tsy tontosa</string>
+    <string name="traitement">eo am-pirakirana</string>
+    <string name="erreur_net">Amarino ny aterinetonao</string>
+    <string name="erreur_message">Tsy tontosa ny fisoratana anarana nataonao</string>
+    <string name="success_message">Inscription réussi</string>
+    <string name="success_title">Fisoratana anarana</string>
+
+    <string name="connexion_message">Fidirana tsy tontonsa</string>
+
+    <string name="description">Famakafakana</string>
+
+    <string name="pick_photo">Hifidy sary/ horonan-tsary</string>
+
+    <string name="valider">Alefa</string>
+
+    <string name="insertion_title">Publication</string>
+    <string name="insertion_success">Vita ny fikirakirana</string>
+    <string name="insertion_error">Tsy tontosa ny fampilazana</string>
+</resources>

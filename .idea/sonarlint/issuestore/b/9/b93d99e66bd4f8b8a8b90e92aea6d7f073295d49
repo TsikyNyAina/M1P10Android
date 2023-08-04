@@ -1,0 +1,25 @@
+
+g	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ²ùÏ
+>
+java:S1604j"(Make this anonymous inner class a lambda(í¶¯‘
+>
+java:S1604z"(Make this anonymous inner class a lambda(½Ñ 
+D
+java:S1604À"(Make this anonymous inner class a lambda(²ü´­ÿÿÿÿÿ
+p
+java:S1450C"URemove the "select" field and declare it as a local variable in the relevant methods.(®ùç¶þÿÿÿÿ
+q
+java:S1450D"VRemove the "valider" field and declare it as a local variable in the relevant methods.(Ë¬çƒúÿÿÿÿ
+r
+java:S1450G"]Remove the "videocontenair" field and declare it as a local variable in the relevant methods.(ˆ
+\
+java:S1854U"FRemove this useless assignment to local variable "slideshowViewModel".(Íž§Ø
+U
+java:S1161S":Add the "@Override" annotation above this method signature(î•Éðûÿÿÿÿ
+M
+java:S1481U"7Remove this unused "slideshowViewModel" local variable.(Íž§Ø
+Z
+java:S1155Û">Use isEmpty() to check whether the collection is empty or not.(­Ä¢óøÿÿÿÿ
+W	java:S125Î"<This block of commented-out lines of code should be removed.(ÛÄ›´ýÿÿÿÿ
+G
+java:S1068G"2Remove this unused "videocontenair" private field.(ˆ
