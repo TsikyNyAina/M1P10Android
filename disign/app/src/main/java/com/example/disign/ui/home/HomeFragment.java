@@ -58,10 +58,12 @@ public class HomeFragment extends Fragment   {
 
         SessionService.getEventFromSource().subscribe((e)->{
             if(this.homeContent !=null){
-                FragmentTransaction fragmentTransaction= getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(this.homeContent.getId(),newHomeContent);
-                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                fragmentTransaction.commit();
+                if(this.homeContent.getId()!=0){
+                    FragmentTransaction fragmentTransaction= getFragmentManager().beginTransaction();
+                    fragmentTransaction.replace(this.homeContent.getId(),newHomeContent);
+                    fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                    fragmentTransaction.commit();
+                }
             }
             this.homeContent=newHomeContent;
             this.homeContent.setScrollChangeListener(scrollChangeListener);
