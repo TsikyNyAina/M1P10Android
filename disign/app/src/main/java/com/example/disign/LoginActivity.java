@@ -51,7 +51,7 @@ public class LoginActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        /*SocketManager.createNotificationChannel(this);
+        SocketManager.createNotificationChannel(this);
         SocketManager.getSocket().connect();
 
         SocketManager.getSocket().on("default", args -> {
@@ -74,7 +74,7 @@ public class LoginActivity extends BaseActivity {
                 }
             }
         });
-*/
+
         SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
 
         sharedpreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
