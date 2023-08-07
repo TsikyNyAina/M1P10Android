@@ -32,7 +32,9 @@
     <string name="navigation_drawer_close">Navigation close</string>
     <string name="nav_header_title">Projet M1 _ 2023</string>
     <string name="nav_header_subtitle">Ramasimiarantsoa Tsiky Ny Aina Syliva _ 1300</string>
-    <string name="nav_header_subtitle1">Andriamarosoa Tina _ </string>
+
+    <string name="nav_header_parti">Ranherinjato andriamarosoa Tinah harilaza _ 904
+    </string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Fikirana</string>
     <string name="action_logout">Hivoaka</string>
