@@ -68,36 +68,36 @@ public class CreateEvent extends Fragment {
 
 
         publishButton.setOnClickListener ((event)-> {
-                Event e=new Event();
-                e.setDescription(description.getText().toString());
-                e.setLieu(lieu.getText().toString());
-                e.setTitre(titre.getText().toString());
-                e.setUserId(5);
+            Event e=new Event();
+            e.setDescription(description.getText().toString());
+            e.setLieu(lieu.getText().toString());
+            e.setTitre(titre.getText().toString());
+            e.setUserId(5);
 
 
 
 
 
-                List<Media> mediaList=chooseFile.getMediaPartList().stream().map((f)->{
-                    Media media=new Media();
-                    media.setPart(f.getPart());
-                    media.setWebUrl(f.getWebUri());
-                    return media;
-                }).collect(Collectors.toList());;
-                e.setMedia(mediaList);
-                e.save(this.getContext()).subscribe((f)->{
-                    Toast.makeText(this.getContext(), "Event created Successfully", Toast.LENGTH_SHORT).show();
-                });
-                Navigation.findNavController(rootView).navigate(R.id.nav_home);
+            List<Media> mediaList=chooseFile.getMediaPartList().stream().map((f)->{
+                Media media=new Media();
+                media.setPart(f.getPart());
+                media.setWebUrl(f.getWebUri());
+                return media;
+            }).collect(Collectors.toList());;
+            e.setMedia(mediaList);
+            e.save(this.getContext()).subscribe((f)->{
+                Toast.makeText(this.getContext(), "Event created Successfully", Toast.LENGTH_SHORT).show();
+            });
+            Navigation.findNavController(rootView).navigate(R.id.nav_home);
 
 
 
 
         });
 
-         FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-         transaction.replace(R.id.container_fragment, chooseFile);
-         transaction.commit();
+        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+        transaction.replace(R.id.container_fragment, chooseFile);
+        transaction.commit();
 
 
         return rootView;

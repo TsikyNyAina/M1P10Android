@@ -30,13 +30,9 @@ private ActivitySplashBinding binding;
         SessionService.getEventFromSource().subscribe((e)->{
             Intent intent = new Intent( this, MainActivity.class);
             startActivity(intent);
-            System.out.println("zzzzzzzzzzzzzzzzz");
             finish();
         },error->{
-
-            System.out.println("jjajaja");
             Toast.makeText(this,"ERROR",Toast.LENGTH_LONG);
-
         });
 
 

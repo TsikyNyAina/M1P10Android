@@ -51,6 +51,7 @@ public class CardEvent extends Fragment {
     public static CardEvent newInstance(Event event) {
         return new CardEvent(event);
     }
+    private static final int BOTTOM_MARGIN_DP = 10; // Set your desired margin in dp
 
 
     @Override
@@ -95,7 +96,10 @@ public class CardEvent extends Fragment {
         viewPager.setAdapter(adapter);
 
 
-
+        int bottomMarginPx = (int) (BOTTOM_MARGIN_DP * getResources().getDisplayMetrics().density);
+        ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) root.getLayoutParams();
+        layoutParams.setMargins(layoutParams.leftMargin, layoutParams.topMargin, layoutParams.rightMargin, bottomMarginPx);
+        root.setLayoutParams(layoutParams);
 
 
 
