@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
@@ -41,6 +42,12 @@ public class HomeFragment extends Fragment   {
         return root;
     }
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        this.refresh();
+    }
+
     public HomeContent refresh(){
         View.OnScrollChangeListener scrollChangeListener=(a,b,c,d,e)->{
             boolean isAtTop = !ViewCompat.canScrollVertically(this.homeContent.scrollView, -1);
@@ -55,7 +62,6 @@ public class HomeFragment extends Fragment   {
                 fragmentTransaction.replace(this.homeContent.getId(),newHomeContent);
                 fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 fragmentTransaction.commit();
-
             }
             this.homeContent=newHomeContent;
             this.homeContent.setScrollChangeListener(scrollChangeListener);
