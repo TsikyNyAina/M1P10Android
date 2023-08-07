@@ -41,4 +41,7 @@ public interface ApiService {
 
     @GET("media/{option}")
     Call<List<Media>> getListeMedia(@Path("option") String option);
+
+    @GET("media/fileList")
+    Call<List<String>> getFileListe();
 }

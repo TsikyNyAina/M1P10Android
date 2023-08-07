@@ -76,7 +76,7 @@ public class InscriptionActivity extends BaseActivity {
         btnConnexion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent refresh = new Intent(InscriptionActivity.this, MainActivity.class);
+                Intent refresh = new Intent(InscriptionActivity.this, LoginActivity.class);
                 startActivity(refresh);
                 finish();
             }
