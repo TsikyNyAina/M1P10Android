@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.Navigation;
+//import androidx.navigation.Navigation;
 
 import com.example.disign.R;
 import com.example.disign.component.Event.CardEvent;
@@ -40,9 +40,9 @@ public class HomeFragment extends Fragment implements View.OnTouchListener {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        binding.newEvent.setOnClickListener((event)->{
+        /*binding.newEvent.setOnClickListener((event)->{
             Navigation.findNavController(root).navigate(R.id.nav_slideshow);
-        });
+        });*/
 
 
 

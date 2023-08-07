@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/drawable/border.xml" value="0.137" />
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/drawable/border2.xml" value="0.137" />
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/drawable/ic_back.xml" value="0.137" />
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/layout/activity_inscription.xml" value="0.1265625" />
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/layout/activity_login.xml" value="0.1265625" />
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/layout/settings_activity.xml" value="0.1265625" />
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/menu/main.xml" value="0.1265625" />
+        <entry key="..\:/Users/MON PC/Documents/Master1/MrRojo_Mobile_Native/M1P10Android/disign/app/src/main/res/xml/root_preferences.xml" value="0.1265625" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
